@@ -27,7 +27,7 @@ body {
   text-align: center;
   align-self: center;
   color: #000000;
-  margin-top: 10%;
+  margin-top: 4%;
 }
 #img {
   width: 100px;
