@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import axios from 'axios'
 import Admin from './modules/Admin'
 import Business from './modules/Business'
 import Customers from './modules/Customers'
