@@ -1,28 +1,41 @@
-<template>
+<template id="tmp">
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img id="img" class="shadow" src="./assets/logo.png" >
+    <index/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import index from './components/index.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    index
   }
 }
 </script>
 
 <style>
+body {
+  background-color: rgb(255, 255, 255);
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  align-self: center;
+  color: #000000;
+  margin-top: 10%;
+}
+#img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 40px;
+  border-radius: 50px;
+}
+#tmp {
+  background-color: black;
 }
 </style>
