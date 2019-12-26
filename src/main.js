@@ -4,7 +4,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store/store'
 import './plugins/axios'
-import style from './style.css'
+import style from './styleDark.css'
+import style from './styleLight.css'
 Vue.config.productionTip = false
 
 new Vue({
